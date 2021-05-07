@@ -1,8 +1,5 @@
-module github.com/go-practice/hello_world
+module github.com/brazilianSteve/go-practice/001-hello-world
 
 go 1.16
 
-require (
-	golang.org/x/text v0.3.6 // indirect
-	rsc.io/quote v1.5.2
-)
+require rsc.io/quote v1.5.2
