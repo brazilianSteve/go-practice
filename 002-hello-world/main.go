@@ -14,5 +14,6 @@ func main() {
 }
 
 func foo() {
-	fmt.Println("I'm in foo")
+	n, _ := fmt.Println("I'm in foo")
+	fmt.Println("Bytes written =", n)
 }
