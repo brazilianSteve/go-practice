@@ -11,6 +11,12 @@ func main() {
 			fmt.Println(i)
 		}
 	}
+
+	a := 5
+	a = 10
+	fmt.Println("a =", a)
+	b := 5 + 10
+	fmt.Println("b =", b)
 }
 
 func foo() {
